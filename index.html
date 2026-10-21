@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeoTigges — Roblox &amp; Minecraft Creator</title>
+  <meta name="description" content="NeoTigges is a Roblox and Minecraft creator and student building games, worlds, and builds." />
+  <meta property="og:title" content="NeoTigges — Roblox &amp; Minecraft Creator" />
+  <meta property="og:description" content="Roblox and Minecraft creator and student." />
+  <meta property="og:url" content="https://neotigges.com" />
+  <meta name="theme-color" content="#0d0f1a" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%2322c55e'/><rect y='10' width='16' height='6' fill='%238b5a2b'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a href="#" class="logo">Neo<span>Tigges</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#create">What I Make</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="blocks" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <p class="tag">Creator &bull; Builder &bull; Student</p>
+      <h1>Hi, I'm <span class="grad">NeoTigges</span></h1>
+      <p class="lead">I build games and worlds in <strong>Roblox</strong> and <strong>Minecraft</strong> — and I'm learning something new every day as a student.</p>
+      <div class="cta">
+        <a href="#create" class="btn btn-primary">See my stuff</a>
+        <a href="#contact" class="btn btn-ghost">Say hi</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <p>I'm a student who loves turning ideas into things people can play. Whether it's scripting a Roblox experience in Lua or crafting a Minecraft build block by block, I'm always making something.</p>
+    </section>
+
+    <section id="create" class="section">
+      <h2>What I make</h2>
+      <div class="cards">
+        <article class="card roblox">
+          <div class="icon" aria-hidden="true">&#9632;</div>
+          <h3>Roblox</h3>
+          <p>Games, obbies, and experiences built in Roblox Studio with Lua scripting.</p>
+        </article>
+        <article class="card minecraft">
+          <div class="icon" aria-hidden="true">&#9638;</div>
+          <h3>Minecraft</h3>
+          <p>Builds, maps, and redstone creations — from tiny houses to huge worlds.</p>
+        </article>
+        <article class="card student">
+          <div class="icon" aria-hidden="true">&#9733;</div>
+          <h3>Student</h3>
+          <p>Learning coding, design, and game development while still in school.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Let's connect</h2>
+      <p>Find me on these platforms:</p>
+      <div class="links">
+        <a class="btn btn-ghost" href="https://www.roblox.com" target="_blank" rel="noopener">Roblox</a>
+        <a class="btn btn-ghost" href="https://www.minecraft.net" target="_blank" rel="noopener">Minecraft</a>
+        <a class="btn btn-ghost" href="https://www.youtube.com" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> NeoTigges &middot; neotigges.com</p>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
